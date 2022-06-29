@@ -1,0 +1,563 @@
+body {
+    background-color: #fffbf7;
+}
+
+.header {
+    /* margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px; */
+    margin: 40px 20px 0px;
+    font-size: 0;
+    font-family: sans-serif;
+    height: 45px;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+
+.logo {
+    width: 15%;
+}
+
+.logo > img {
+    width: 15%;
+}
+
+.navbar {
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+
+.menu-item {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.actions {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.actions a {
+    color: #67b54b;
+}
+
+li {
+    display: inline;
+}
+
+.main {
+    margin-top: 285px;
+    text-align: center;
+}
+
+h1 {
+    color: #46484c;
+    font-family: "Sofia", sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+p {
+    color: #8b8b8bcc;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+.text-info {
+    font-family: "Audiowide", sans-serif;
+    font-size: 25px;
+}
+
+button {
+    color: white;
+    background-color: #67b54b;
+    padding: 14px 12px 14px 12px;
+    border: 0;
+    border-radius: 5px;
+}
+
+img {
+    display: block;
+    margin-left: 15%;
+    max-width: 70%;
+}
+
+.img-capterra{
+    max-width: 40%;
+    margin-left: 30%;
+}
+
+.publish h3 {
+    font-family:'Franklin Gothic Medium';
+    font-size: 40px;
+    line-height: 1;
+    color: #025157;
+}
+
+.publish p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.publish form {
+    display: flex;
+}
+
+.publish form p {
+    color: #025157;
+    margin-right: 18px;
+}
+
+.publish form div input {
+    padding: 14px 12px 14px 12px;
+    border: 1;
+    border-radius: 5px;
+}
+
+.promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
+
+.success {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    background-color: #a1d683;
+}
+
+.success .text-view {
+    flex: 2;
+    padding: 5%;
+    margin: 20px;
+}
+
+.success .text-view h2 {
+    font-family: 'Courier New';
+    font-size: 40px;
+    color: #025157;
+    line-height: 1.5;
+}
+
+.success .text-view p {
+    font-size: 15px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.success .text-view button {
+    padding: 12px;
+    border-radius: 8px;
+    height: 50px;
+}
+
+.success .text-view img {
+    width: 500px;
+}
+
+.success .stories {
+    flex: 1;
+    margin: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.success .stories .card-image {
+    position: relative;
+    margin-top: 0;
+}
+
+.success .stories .card-image .card-company {
+    position: absolute;
+    background-color: #f9da73;
+    border-radius: 80%;
+    width: 40%;
+    height: 40%;
+    bottom: -40px;
+    right: 50px;
+    max-width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.success .stories .card-body {
+    padding: 40px;
+}
+
+.success .stories .card-body h4 {
+    font-family:'Arial Narrow Bold', sans-serif;
+    color: #025157;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.success .stories .card-body h3 {
+    font-size: 30px;
+    font-family: Arial;
+    margin-bottom: 30px;
+}
+
+.success .stories .card-footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.features {
+    background-color: #025157;
+    padding: 5%;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    height: 660px;
+}
+
+.features .feature-card {
+    margin: 15px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.features .feature-card .feature-content {
+    padding: 30px;
+    flex: 2;
+}
+
+.features .feature-card .feature-content > * {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.features .feature-card .feature-content img {
+    width: 60px;
+}
+
+.features .feature-card .feature-content h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;    
+}
+
+.features .feature-card .feature-content p {
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+}
+
+.features .feature-card .feature-content a {
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;   
+}
+
+.features .feature-card .feature-image {
+    flex: 1;
+    width: 40%;
+    height: 80%;
+    right: -50px;
+    position: relative;
+}
+
+.features .feature-card .feature-image figure,
+.features .feature-card .feature-image img {
+  margin-top: 0;
+  height: 100%;
+}
+
+.matcha-work {
+    text-align: center;
+    background-color: #fffbf7;
+    padding: 5%;
+}
+
+.matcha-work .matcha-title {
+    font-family: Verdana;
+    color: #025157;
+    font-size: 40px;
+    line-height: 1.5;
+    margin-bottom: 5%;
+}
+
+.matcha-work button {
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.matcha-work .matcha-articles {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.matcha-work .matcha-articles .article {
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.matcha-work .matcha-articles .article .images-article {
+    height: 350px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.matcha-work .matcha-articles .article .images-article .card-image-icon {
+    position: absolute;
+    width: 60px;
+    right: 5%;
+    top: 20%;
+}
+
+.matcha-work .matcha-articles .article .text-article {
+    padding: 40px 20px 40px;
+}
+
+.matcha-work .matcha-articles .article .text-article h3 {
+    font-family: 'Segoe UI';
+    color:#025157;
+    font-size: 25px;
+    line-height: 1.8;
+}
+
+.matcha-work .matcha-articles .article .text-article p {
+    font-size: 16px;
+    color: #46484c;
+    line-height: 1.5;
+}
+
+.matcha-work .matcha-articles .article .text-article a {
+    font-size: 16px;
+    font-family: Arial;
+    line-height: 1.8;
+    text-decoration: none;
+}
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+    
+
+    .main {
+        margin-top: 130px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .publish {
+        margin-top: 10px;
+    }
+
+    .publish > h3 {
+        font-size: 25px;
+        line-height: 1.2;
+
+    }
+
+    .publish > form {
+        flex-direction: column;
+    }
+
+    .publish > form > div {
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .publish > form > div > input {
+        width: 65%;
+    }
+
+
+    .promo {
+        flex-direction: column;
+        max-width: 90%;
+    }
+
+    .explanatory-video > video {
+        width: 100%;
+    }
+
+    .features {
+        grid-template: repeat(4, 1fr) / 1fr;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+      .feature-image {
+        display: none;
+    }
+
+    .success {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .matcha-work .matcha-title {
+        font-size: 30px;
+        line-height: 1.2;
+        margin-bottom: 5%;
+    }
+
+    .matcha-work .matcha-description {
+        font-size: 15px;
+    }
+
+    .matcha-work button {
+        font-size: 14px;
+        padding: 14px;
+        margin-top: 10px;
+    }
+
+    .matcha-work .matcha-articles {
+        grid-template: repeat(4, 1fr) / 1fr;
+        margin-top: 40px;
+        grid-row-gap: 20px;
+    }
+
+    .matcha-work .matcha-articles .article {
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    }
+    
+    .matcha-work .matcha-articles .article .images-article {
+        height: 200px;
+        margin-top: 20px;
+    }
+    
+    .matcha-work .matcha-articles .article .images-article .card-image-icon {
+        display: none;
+    }
+
+    .matcha-work .matcha-articles .article .text-article {
+        padding: 20px 10px 20px;
+    }
+    
+    .matcha-work .matcha-articles .article .text-article h3 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.8;
+    }
+    
+    .matcha-work .matcha-articles .article .text-article p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    .matcha-work .matcha-articles .article .text-article a {
+        font-size: 14px;
+        line-height: 1.2;
+        text-decoration: none;
+    }
+
+    .success .text-view h2 {
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 600;
+    }
+
+    .success .stories {
+        margin: 20px 100px;
+    }
+
+    .success .stories .card-body {
+        padding: 20px;
+    }
+    
+    .success .stories .card-body h4 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .success .stories .card-body h3 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .success .stories .card-body p {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .success .stories .card-footer {
+        padding: 20px;
+    }
+
+    .mt-0 {
+        margin-top: 0 !important;
+    }
+      
+    .px-0 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+
+  }
+  
+  /** dispositivos pequeños en vista landscape (horizontal) */
+  @media (min-width: 576px) and (max-width: 767px) {
+    
+  }
+  
+  /** dispositivos medianos (tablets) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    
+  }
+  
+  /** dispositivos grandes (desktops) */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    
+  }
+  
+  /** dispositivos extra grandes (monitores grandes, tvs) */
+  @media (min-width: 1200px) {
+    
+  }
